@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header {
+  width: 100%;
+  padding: 0 3rem;
+  height: 80px;
+  position: relative;
+  background: #E26B18;
+}
+a, a:hover, a:visited {
+  color: #0078A7;
+}
+a.button {
+  text-decoration: none;
+  display: inline-block;
+  height: 2em;
+  padding: 0em 1em;
+  line-height: 2em;
+  background: #0078A7;
+  color: #FFF;
+  border-radius: 1em;
+  margin-right: 1em;
+}
+header > img {
+  position: absolute;
+  bottom: -1em;
+  left: 20%;
+}
+h1 {
+  margin-bottom: 0;
+}
+h6 {
+  color: #E26B18;
+  text-transform: uppercase;
+  margin: 0.5em 0 0 0;
+}
+blockquote {
+  font-style: italic;
+  font-family: serif;
+  border-left: 0.3em solid #E26B18;
+  padding: 0 0 0 1em;
+  margin-left: 0;
+}
+.map {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  font-size: 14px;
+}
+.avatar{
+  height: 60px;
+  width: auto;
+  border-radius: 50%;
+  background:  no-repeat 0 0;
+}
+ul {
+  padding: 0;
+    list-style-type: none;
+}
+.projects{
+  height: 80px;
+  width: auto;
+  border: 2px solid;
+  padding: 10px;
+  border-color: #E26B18;
+  border-radius: 50%;
+  background:  no-repeat 0 0;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 50%;
+}
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    width: 90%;
+  }
+}
